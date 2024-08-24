@@ -25,7 +25,7 @@ void main(List<String> args) {
   Sueldos.sort();
   print("Los empleados que menos salario obtuvieron fueron:");
   var empleadosPeoresPagos = Sueldos.take(3);
-  print("Los empleados mejores pagos fueron $empleadosPeoresPagos");
+  print("Los empleados peores pagos fueron $empleadosPeoresPagos");
   print("***********************************************");
 
   print("Cual es el salario promedio de dichos empleados?");
